@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#0d6efd"/><stop offset="1" stop-color="#6610f2"/></linearGradient></defs>
+  <rect width="800" height="450" fill="#0f1115"/>
+  <rect x="60" y="60" width="680" height="330" rx="18" fill="#14171a" stroke="url(#g)" stroke-width="4"/>
+  <text x="400" y="240" font-size="36" fill="#eaeef3" font-family="Segoe UI, Arial" text-anchor="middle">Portafolio · React + Bootstrap</text>
+</svg>

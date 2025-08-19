@@ -1,0 +1,170 @@
+/* GENERAL */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+  color: #333;
+}
+
+/* HERO */
+.hero {
+  background: #1a1a1a url('../img/avatar.svg') no-repeat right 10% center/300px auto;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  color: #f5f5f5;
+  padding-left: 2rem;
+}
+
+.hero h1 {
+  font-weight: 700;
+  font-size: 3rem;
+  color: #f5f5f5;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #dcdcdc;
+}
+
+.hero .btn-primary {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.hero .btn-outline-light {
+  color: #f5f5f5;
+  border-color: #f5f5f5;
+}
+
+/* SECCIONES */
+.section {
+  padding: 80px 0;
+  background-color: #fff;
+  color: #333;
+}
+
+/* SOBREMÍ */
+#sobremi h2 {
+  color: #0d6efd; /* azul formal */
+}
+#sobremi p {
+  color: #555;
+}
+
+/* HABILIDADES */
+#habilidades h2 {
+  color: #0d6efd;
+}
+#habilidades .skill span {
+  color: #333;
+}
+#habilidades .progress-bar {
+  background-color: #0d6efd;
+}
+
+/* PROYECTOS */
+#proyectos h2 {
+  color: #0d6efd;
+}
+#proyectos .card-title {
+  color: #0b5ed7;
+}
+#proyectos .card-text {
+  color: #555;
+}
+
+/* EXPERIENCIA */
+#experiencia h2 {
+  color: #0d6efd;
+}
+#experiencia h6 {
+  color: #0b5ed7;
+}
+#experiencia p {
+  color: #555;
+}
+
+/* SERVICIOS */
+#servicios h2 {
+  color: #0d6efd;
+}
+#servicios h6 {
+  color: #0b5ed7;
+}
+#servicios p {
+  color: #555;
+}
+
+/* CONTACTO */
+#contacto {
+  background: #f8f9fa;
+  color: #333;
+}
+#contacto h2, #contacto h5 {
+  color: #0d6efd;
+}
+#contacto p, #contacto li, #contacto a {
+  color: #555;
+}
+
+/* FOOTER */
+footer {
+  background: #212529;
+  color: #ccc;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+/* BOTONES Y LINKS */
+.btn-primary {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  transition: all 0.3s;
+}
+.btn-primary:hover {
+  background-color: #0b5ed7;
+  border-color: #0b5ed7;
+}
+
+.btn-outline-primary {
+  color: #0d6efd;
+  border-color: #0d6efd;
+}
+.btn-outline-primary:hover {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+/* NAVBAR */
+.navbar-dark {
+  background-color: #212529;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #f5f5f5;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #0d6efd;
+}
+
+/* ICONOS SOCIALES */
+.social i {
+  font-size: 1.5rem;
+  color: #0d6efd;
+}
+.social i:hover {
+  color: #0b5ed7;
+}
+
+/* TARJETAS */
+.card {
+  border: 1px solid #e0e0e0;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
